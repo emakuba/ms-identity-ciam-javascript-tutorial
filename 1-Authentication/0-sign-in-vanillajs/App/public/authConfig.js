@@ -9,6 +9,7 @@ const msalConfig = {
         authority: 'https://Enter_the_Tenant_Domain_Here', // Replace the placeholder with your tenant domain        
         redirectUri: 'http://localhost:3000/redirect', // You must register this URI on Microsoft Entra admin center/App Registration. Defaults to window.location.href e.g. http://localhost:3000/
         navigateToLoginRequestUrl: true, // If "true", will navigate back to the original request location before processing the auth code response.
+        knownAuthorities: ["Enter_the_Custom_Domain_Here"],
     },
     cache: {
         cacheLocation: 'sessionStorage', // Configures cache location. "sessionStorage" is more secure, but "localStorage" gives you SSO.

@@ -42,7 +42,8 @@
                     "settingFile": "App/public/authConfig.js",
                     "replaceTokens": {
                         "appId": "Enter_the_Application_Id_Here",
-                        "domain": "Enter_the_Tenant_Domain_Here"
+                        "domain": "Enter_the_Tenant_Domain_Here",
+                        "knownAuthorities": "Enter_the_Custom_Domain_Here"
                     }
                 }
             ]
